@@ -125,7 +125,7 @@ async function carregarHistorico() {
 
 // Ajustar para limpar no firbase
 async function limparHistoricoFirebase() {
-  const confirmacao = confirm("Tem certeza que deseja limpar todo o histórico? Essa ação não pode ser desfeita(inclusive no firebase kkkk)");
+  const confirmacao = confirm("Tem certeza que deseja limpar todo o histórico? Essa ação não pode ser desfeita😨");
   if (!confirmacao) return;
 
   try {
