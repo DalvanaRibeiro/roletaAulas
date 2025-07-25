@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roleta de Temas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎡 Roleta de Temas </h1>
+
+  <div id="container">
+    <div id="container-roleta">
+      <canvas id="wheel" width="700" height="700"></canvas>
+      <button id="botaoGirar">Girar Roleta</button>
+      
+      <div id="inputs">
+        <input type="text" id="novoTema" placeholder="Novo tema..." />
+        <button id="botaoAdicionarTema">Adicionar Tema</button>
+      </div>
+    </div>
+
+    <div id="painel-historico">
+      <h2>Histórico de Sorteios</h2>
+      <button id="botaoLimparHistorico">Limpar Histórico</button>
+      <ul id="listaSorteios"></ul>
+    </div>
+  </div>
+
+
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
